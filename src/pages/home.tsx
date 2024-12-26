@@ -29,11 +29,11 @@ const Home = () => {
   useEffect(() => {
     console.log("toast here");
   }, []);
-  // toast.success("Want more links? Join our discord server for BYOD links!", {
+  // toast.success("Want more links? Join our discord for more LINKS!", {
   //   action: {
   //     label: "Join Server",
   //     onClick: () =>
-  //       window.open("https://discord.com/invite/p8w8neURBb", "_blank"),
+  //       window.open("https://discord.gg/zy7z53nr", "_blank"),
   //   },
 
   // });
