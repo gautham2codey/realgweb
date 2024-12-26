@@ -83,7 +83,7 @@ const Navbar = () => {
 
   useEffect(() => {
     window.document.title =
-      settingsStore.title.length > 0 ? settingsStore.title : "Emerald";
+      settingsStore.title.length > 0 ? settingsStore.title : "Gweb";
     window.document
       .querySelector("link[rel='icon']")
       ?.setAttribute(
@@ -275,7 +275,7 @@ const Navbar = () => {
             </Sheet>
 
             <a
-              href="https://discord.com/invite/p8w8neURBb"
+              href="https://discord.gg/zy7z53nr"
               target="_blank"
               className="transition-colors hover:text-foreground/80 text-foreground/60"
             >
@@ -326,7 +326,7 @@ const Navbar = () => {
                     <h1 className="text-card-foreground">Settings</h1>
                   </DialogTitle>
                   <DialogDescription>
-                    Settings to change the behavior of Emerald.
+                    Settings to change the behavior of Gweb.
                   </DialogDescription>
                 </DialogHeader>
                 <Separator />
@@ -390,7 +390,7 @@ const Navbar = () => {
                         className="max-w-[20rem] text-card-foreground placeholder:text-card-foreground/55"
                         placeholder="example.com"
                         value={settingsStore.panicLink}
-                        onChange={(e) => settingsStore.setPLink(e.target.value)}
+                          onChange={(e) => settingsStore.setPLink(e.target.value)}
                       />
                     </div>
                     <div className="flex items-center justify-between">
